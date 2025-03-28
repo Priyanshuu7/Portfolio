@@ -10,6 +10,7 @@
 !.yarn/releases
 !.yarn/versions
 package-lock.json
+bun.lock
 
 # testing
 /coverage
@@ -24,7 +25,13 @@ package-lock.json
 # misc
 .DS_Store
 *.pem
+
+# config files
 postcss.config.mjs
+next.config.js
+netlify.toml
+eslint.config.mjs
+components.json
 
 # debug
 npm-debug.log*
