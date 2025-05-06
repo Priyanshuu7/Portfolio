@@ -37,6 +37,7 @@ export function Experience() {
                                     className="flex flex-col md:flex-row justify-between md:items-center gap-2">
                                     <div>
                                         <CardTitle>Full Stack Developer Intern</CardTitle>
+                                        <br />
                                         <CardDescription>Clinicspots — Mumbai, India (Remote)</CardDescription>
                                     </div>
                                     <Badge variant="secondary" className="w-fit">
@@ -46,14 +47,17 @@ export function Experience() {
                             </CardHeader>
                             <CardContent className="space-y-2">
                                 <ul className="list-disc pl-5 space-y-1.5 text-muted-foreground">
-                                    <li>Built PPC Websites for multiple hospitals.</li>
-                                    <li>Worked on optimization of page speed.</li>
-                                    <li>Rewrote some websites from PHP into React.</li>
-                                    <li>Implemented robust payment workflows using Stripe API.</li>
+                                    <li>Developed PPC landing websites for multiple hospitals to support targeted advertising campaigns and drive patient
+                                    conversions. </li>
+                                    <li>Implemented performance optimization techniques to reduce page load time, resulting in faster user interactions
+                                    and improved Core Web Vitals.</li>
+                                    <li>Developed and implemented a lead generation form, resulting in increased customer engagement and higher lead
+                                    conversion rates.</li>
+                                    {/* <li>Implemented robust payment workflows using Stripe API.</li>
                                     <li>Designed efficient database schemas in Supabase, achieving query performance
                                         gains of 28%.</li>
                                     <li>Led frontend architecture decisions and mentored interns on software
-                                        development best practices and agile methodologies.</li>
+                                        development best practices and agile methodologies.</li> */}
                                 </ul>
                             </CardContent>
                         </Card>
@@ -67,7 +71,8 @@ export function Experience() {
                                     className="flex flex-col md:flex-row justify-between md:items-center gap-2">
                                     <div>
                                         <CardTitle>Jaypee University of Engineering and Technology, Guna</CardTitle>
-                                        <CardDescription>B.Tech. in Computer Science</CardDescription>
+                                        <br />
+                                        <CardDescription> <strong>B.Tech. in Computer Science </strong></CardDescription>
                                     </div>
                                     <Badge variant="secondary" className="w-fit">
                                         Aug 2022 – Jul 2026
@@ -84,7 +89,7 @@ export function Experience() {
                         </Card>
                     </motion.div>
 
-                    <motion.div className="mt-12" variants={slideUpVariants} custom={2}>
+                    {/* <motion.div className="mt-12" variants={slideUpVariants} custom={2}>
                         <h3 className="text-2xl font-bold mb-6">Additional Experience</h3>
                         <Card className="bg-background">
                             <CardHeader>
@@ -103,7 +108,7 @@ export function Experience() {
                                 </p>
                             </CardContent>
                         </Card>
-                    </motion.div>
+                    </motion.div> */}
                 </div>
             </div>
         </motion.section>

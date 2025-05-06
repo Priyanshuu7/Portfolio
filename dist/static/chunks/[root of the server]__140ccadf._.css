@@ -391,21 +391,21 @@ img, video {
 
 :root {
   --background: 240 10% 3.9%;
-  --foreground: 0 0% 98%;
+  --foreground: 0 0 98%;
   --card: 240 10% 3.9%;
-  --card-foreground: 0 0% 98%;
+  --card-foreground: 0 0 98%;
   --popover: 240 10% 3.9%;
-  --popover-foreground: 0 0% 98%;
-  --primary: 0 0% 98%;
+  --popover-foreground: 0 0 98%;
+  --primary: 0 0 98%;
   --primary-foreground: 240 5.9% 10%;
   --secondary: 240 3.7% 15.9%;
-  --secondary-foreground: 0 0% 98%;
+  --secondary-foreground: 0 0 98%;
   --muted: 240 3.7% 15.9%;
   --muted-foreground: 240 5% 64.9%;
   --accent: 240 3.7% 15.9%;
-  --accent-foreground: 0 0% 98%;
+  --accent-foreground: 0 0 98%;
   --destructive: 0 62.8% 30.6%;
-  --destructive-foreground: 0 0% 98%;
+  --destructive-foreground: 0 0 98%;
   --border: 240 3.7% 15.9%;
   --input: 240 3.7% 15.9%;
   --ring: 240 4.9% 83.9%;
@@ -419,21 +419,21 @@ img, video {
 
 .dark {
   --background: 240 10% 3.9%;
-  --foreground: 0 0% 98%;
+  --foreground: 0 0 98%;
   --card: 240 10% 3.9%;
-  --card-foreground: 0 0% 98%;
+  --card-foreground: 0 0 98%;
   --popover: 240 10% 3.9%;
-  --popover-foreground: 0 0% 98%;
-  --primary: 0 0% 98%;
+  --popover-foreground: 0 0 98%;
+  --primary: 0 0 98%;
   --primary-foreground: 240 5.9% 10%;
   --secondary: 240 3.7% 15.9%;
-  --secondary-foreground: 0 0% 98%;
+  --secondary-foreground: 0 0 98%;
   --muted: 240 3.7% 15.9%;
   --muted-foreground: 240 5% 64.9%;
   --accent: 240 3.7% 15.9%;
-  --accent-foreground: 0 0% 98%;
+  --accent-foreground: 0 0 98%;
   --destructive: 0 62.8% 30.6%;
-  --destructive-foreground: 0 0% 98%;
+  --destructive-foreground: 0 0 98%;
   --border: 240 3.7% 15.9%;
   --input: 240 3.7% 15.9%;
   --ring: 240 4.9% 83.9%;
@@ -563,6 +563,10 @@ body {
 
 .-top-12 {
   top: -3rem;
+}
+
+.-top-\[48\%\] {
+  top: -48%;
 }
 
 .bottom-0 {
@@ -842,11 +846,6 @@ body {
 
 .translate-x-\[-50\%\] {
   --tw-translate-x: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.translate-y-\[-50\%\] {
-  --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1437,6 +1436,20 @@ body {
   }
 }
 
+.animate-out {
+  animation-name: exit;
+  animation-duration: .15s;
+  --tw-exit-opacity: initial;
+  --tw-exit-scale: initial;
+  --tw-exit-rotate: initial;
+  --tw-exit-translate-x: initial;
+  --tw-exit-translate-y: initial;
+}
+
+.slide-in-from-top {
+  --tw-enter-translate-y: -100%;
+}
+
 .duration-1000 {
   animation-duration: 1s;
 }
@@ -1523,7 +1536,7 @@ body {
 
 @keyframes gradient {
   0% {
-    background-position: 0%;
+    background-position: 0;
   }
 
   50% {
@@ -1531,7 +1544,7 @@ body {
   }
 
   100% {
-    background-position: 0%;
+    background-position: 0;
   }
 }
 
@@ -1620,10 +1633,6 @@ body {
 
 .hover\:bg-accent:hover {
   background-color: hsl(var(--accent));
-}
-
-.hover\:bg-destructive\/80:hover {
-  background-color: hsl(var(--destructive) / .8);
 }
 
 .hover\:bg-destructive\/90:hover {
@@ -1750,10 +1759,6 @@ body {
   color: hsl(var(--muted-foreground));
 }
 
-.data-\[state\=closed\]\:duration-300[data-state="closed"] {
-  transition-duration: .3s;
-}
-
 .data-\[state\=open\]\:duration-500[data-state="open"] {
   transition-duration: .5s;
 }
@@ -1790,10 +1795,6 @@ body {
   --tw-exit-scale: .95;
 }
 
-.data-\[state\=open\]\:zoom-in-95[data-state="open"] {
-  --tw-enter-scale: .95;
-}
-
 .data-\[state\=closed\]\:slide-out-to-bottom[data-state="closed"] {
   --tw-exit-translate-y: 100%;
 }
@@ -1814,36 +1815,8 @@ body {
   --tw-exit-translate-y: -100%;
 }
 
-.data-\[state\=closed\]\:slide-out-to-top-\[48\%\][data-state="closed"] {
-  --tw-exit-translate-y: -48%;
-}
-
-.data-\[state\=open\]\:slide-in-from-bottom[data-state="open"] {
-  --tw-enter-translate-y: 100%;
-}
-
-.data-\[state\=open\]\:slide-in-from-left[data-state="open"] {
-  --tw-enter-translate-x: -100%;
-}
-
 .data-\[state\=open\]\:slide-in-from-left-1\/2[data-state="open"] {
   --tw-enter-translate-x: -50%;
-}
-
-.data-\[state\=open\]\:slide-in-from-right[data-state="open"] {
-  --tw-enter-translate-x: 100%;
-}
-
-.data-\[state\=open\]\:slide-in-from-top[data-state="open"] {
-  --tw-enter-translate-y: -100%;
-}
-
-.data-\[state\=open\]\:slide-in-from-top-\[48\%\][data-state="open"] {
-  --tw-enter-translate-y: -48%;
-}
-
-.data-\[state\=closed\]\:duration-300[data-state="closed"] {
-  animation-duration: .3s;
 }
 
 .data-\[state\=open\]\:duration-500[data-state="open"] {
@@ -1967,10 +1940,6 @@ body {
 .\[\&\[data-state\=open\]\>svg\]\:rotate-180[data-state="open"] > svg {
   --tw-rotate: 180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.\[\&_svg\]\:pointer-events-none svg {
-  pointer-events: none;
 }
 
 .\[\&_svg\]\:size-4 svg {

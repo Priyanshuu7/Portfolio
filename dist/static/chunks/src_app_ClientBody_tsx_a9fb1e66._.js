@@ -29,8 +29,8 @@ function ClientBody({ children }) {
         children: children
     }, void 0, false, {
         fileName: "[project]/src/app/ClientBody.tsx",
-        lineNumber: 17,
-        columnNumber: 5
+        lineNumber: 15,
+        columnNumber: 9
     }, this);
 }
 _s(ClientBody, "OD7bBpZva5O2jO+Puf00hKivP7c=");

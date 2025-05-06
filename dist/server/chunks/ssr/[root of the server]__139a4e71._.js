@@ -120,7 +120,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$ClientBody$2e$
 ;
 const metadata = {
     title: "Priyanshu Rajak - Full Stack Developer",
-    description: "Portfolio of Priyanshu Rajak, a Full Stack Developer with expertise in React, Next.js, Node.js, and modern web technologies.",
+    description: "Portfolio of Priyanshu Rajak, a Full Stack Developer with expertise in React, Ne" + "xt.js, Node.js, and modern web technologies.",
     keywords: [
         "Priyanshu Rajak",
         "Full Stack Developer",
@@ -147,13 +147,13 @@ function RootLayout({ children }) {
             children: children
         }, void 0, false, {
             fileName: "[project]/src/app/layout.tsx",
-            lineNumber: 40,
-            columnNumber: 7
+            lineNumber: 41,
+            columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 39,
-        columnNumber: 5
+        lineNumber: 38,
+        columnNumber: 9
     }, this);
 }
 }}),

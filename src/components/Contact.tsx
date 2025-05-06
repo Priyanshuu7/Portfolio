@@ -64,10 +64,10 @@ export function Contact() {
                     <div
                         className="mt-12 bg-background/60 backdrop-blur-md rounded-lg p-6 border max-w-lg w-full">
                         <p className="text-center">
-                            Currently available for
-                            <span className="font-semibold">freelance projects</span>
-                            and
-                            <span className="font-semibold">internship opportunities</span>.
+                            <span className="font-semibold">Currently available for </span>  
+                            <span className="font-semibold">freelance projects </span> 
+                            <span className="font-semibold">and </span>
+                            <span className="font-semibold">internship opportunities </span>.
                         </p>
                     </div>
                 </AnimatedSection>

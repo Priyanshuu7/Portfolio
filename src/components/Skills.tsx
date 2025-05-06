@@ -9,10 +9,10 @@ import {Separator} from "@/components/ui/separator";
 const categories = [
     {
         name: "Languages",
-        skills: ["C", "C++", "TypeScript", "JavaScript"]
+        skills: ["C++", "TypeScript", "JavaScript", "python"]
     }, {
         name: "Frameworks",
-        skills: ["React.js", "Next.js", "Express.js", "Node.js", "Vercel"]
+        skills: ["React.js", "Next.js", "Express.js", "Node.js", "Vercel",]
     }, {
         name: "Databases",
         skills: ["PostgreSQL", "MongoDB", "Supabase"]
@@ -24,7 +24,6 @@ const categories = [
             "GitHub",
             "Prisma",
             "Linux",
-            "Vim",
             "Canva",
             "AWS",
             "Kafka",
@@ -77,7 +76,7 @@ export function Skills() {
                                     .map((skill, skillIndex) => (
                                         <Badge
                                             key={skill}
-                                            className="animate-float"
+                                            // className="animate-float"
                                             style={{
                                             animationDelay: `${skillIndex * 0.2}s`,
                                             backgroundColor: getSkillColor(skillIndex),

@@ -16,11 +16,11 @@ import {ExternalLink, Github} from "lucide-react";
 
 const projects = [
     {
-        title: "YelpCamp",
-        description: "Yelpcamp is a website that allows users to create and review campgrounds. Users " +
-                "must have an account to create or review a campground.",
+        title: "Labelify",
+        description: "Developed a full-stack decentralized application (dApp) for task creation and fulfillment," +
+                " integrating Solana blockchain for secure and transparent payment handling.",
         technologies: [
-            "React", "MongoDB", "Express", "Node", "Passport.js"
+            "Nextjs", "Nodejs", "Prisma", "Web3", "AWS"
         ],
         link: "#",
         github: "#"
@@ -50,14 +50,14 @@ export function Projects() {
     return (
         <motion.section
             id="projects"
-            className="py-24"
+            className="py-"
             initial="hidden"
             whileInView="visible"
             viewport={{
             once: true
         }}
             variants={fadeInVariants}>
-            <div className="container max-w-5xl mx-auto px-4 sm:px-6">
+            <div className="container max-w-7xl mx-auto px-4 sm:px-6">
                 <motion.div className="text-center mb-16" variants={slideUpVariants}>
                     <h2 className="text-3xl font-bold mb-4">Technical Projects</h2>
                     <p className="text-muted-foreground max-w-2xl mx-auto">
