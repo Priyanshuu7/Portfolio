@@ -9,10 +9,10 @@ import {Separator} from "@/components/ui/separator";
 const categories = [
     {
         name: "Languages",
-        skills: ["C++", "TypeScript", "JavaScript", "python"]
+        skills: ["C++", "TypeScript", "JavaScript", "Python", "Java"]
     }, {
         name: "Frameworks",
-        skills: ["React.js", "Next.js", "Express.js", "Node.js", "Vercel",]
+        skills: ["React.js", "Next.js", "Express.js", "Node.js",]
     }, {
         name: "Databases",
         skills: ["PostgreSQL", "MongoDB", "Supabase"]
@@ -24,12 +24,13 @@ const categories = [
             "GitHub",
             "Prisma",
             "Linux",
-            "Canva",
+            "Postman",
             "AWS",
             "Kafka",
             "Netlify",
             "Render",
-            "Vercel"
+            "Vercel",
+            "Redis"
         ]
     }
 ];

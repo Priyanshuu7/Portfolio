@@ -63,8 +63,7 @@ export function Hero() {
                     <motion.div variants={itemVariants}>
                         <AnimatedSection className="text-center mb-12" animation="slideUp" delay={0.2}>
                             <p className="text-xl sm:text-2xl text-foreground/80 max-w-3xl mx-auto mt-6">
-                            I craft dynamic web pages, integrate databases,
-                            and ensure cross-browser compatibility
+                            Design and develop interactive web interfaces with robust database integration, ensuring cross-browser compatibility and responsive performance.
                             </p>
                         </AnimatedSection>
                     </motion.div>
@@ -75,7 +74,7 @@ export function Hero() {
                             animation="slideUp"
                             delay={0.4}>
                             <Button asChild size="lg" className="rounded-full px-8">
-                                <Link href="/PriyanshuRajak_resume.pdf" target="_blank">View Resume</Link>
+                                <Link href="/Resume.pdf" target="_blank">View Resume</Link>
                             </Button>
                             <Button asChild variant="outline" size="lg" className="rounded-full px-8">
                                 <Link href="#projects">See Projects</Link>
@@ -100,7 +99,7 @@ export function Hero() {
                                     stiffness: 300
                                 }}>
                                     <h3 className="text-lg font-semibold mb-2">Frontend</h3>
-                                    <p className="text-sm text-foreground/70">React, Next.js, TypeScript, Javascript</p>
+                                    <p className="text-sm text-foreground/70">React.js, Next.js, TypeScript, Javascript</p>
                                 </motion.div>
                                 <motion.div
                                     className="bg-white/5 backdrop-blur-sm border rounded-xl p-6 transition-transform hover:scale-105"
@@ -112,7 +111,7 @@ export function Hero() {
                                     stiffness: 300
                                 }}>
                                     <h3 className="text-lg font-semibold mb-2">Backend</h3>
-                                    <p className="text-sm text-foreground/70">Node.js, Express, MongoDB , Postgres</p>
+                                    <p className="text-sm text-foreground/70">Node.js, Express.js, MongoDB , PostgreSQL, Supabase </p>
                                 </motion.div>
                                 <motion.div
                                     className="bg-white/5 backdrop-blur-sm border rounded-xl p-6 transition-transform hover:scale-105"
@@ -124,7 +123,7 @@ export function Hero() {
                                     stiffness: 300
                                 }}>
                                     <h3 className="text-lg font-semibold mb-2">Tools</h3>
-                                    <p className="text-sm text-foreground/70">Docker, Git, AWS, Vercel, Kafka</p>
+                                    <p className="text-sm text-foreground/70">Docker, Git, AWS, Vercel, Kafka, Redis</p>
                                 </motion.div>
                             </div>
                         </AnimatedSection>

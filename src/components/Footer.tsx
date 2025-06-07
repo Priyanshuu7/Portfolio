@@ -22,8 +22,7 @@ export function Footer() {
                             Priyanshu Rajak
                         </Link>
                         <p className="mt-2 text-muted-foreground">
-                            Full Stack Developer specializing in React, Next.js, and modern web
-                            technologies.
+                        Full Stack Developer crafting scalable web apps using React, Next.js, and cutting-edge technologies.
                         </p>
                     </div>
                     <div className="grid grid-cols-2 gap-8">

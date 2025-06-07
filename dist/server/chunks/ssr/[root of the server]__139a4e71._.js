@@ -105,6 +105,7 @@ __turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$a
 
 var { g: global, __dirname } = __turbopack_context__;
 {
+// app/layout.tsx
 __turbopack_context__.s({
     "default": (()=>RootLayout),
     "metadata": (()=>metadata)
@@ -120,7 +121,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$ClientBody$2e$
 ;
 const metadata = {
     title: "Priyanshu Rajak - Full Stack Developer",
-    description: "Portfolio of Priyanshu Rajak, a Full Stack Developer with expertise in React, Ne" + "xt.js, Node.js, and modern web technologies.",
+    description: "Portfolio of Priyanshu Rajak, a Full Stack Developer with expertise in React, Next.js, Node.js, and modern web technologies.",
     keywords: [
         "Priyanshu Rajak",
         "Full Stack Developer",
@@ -134,26 +135,36 @@ const metadata = {
     authors: [
         {
             name: "Priyanshu Rajak",
-            url: "https://priyanshu.tech"
+            url: "https://www.priyanshurajak.tech/"
         }
     ],
-    creator: "Priyanshu Rajak"
+    creator: "Priyanshu Rajak",
+    icons: {
+        icon: "/favicon.png"
+    }
 };
 function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
         lang: "en",
         className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_e531dabc$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_mono_68a01160$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} scroll-smooth dark`,
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$ClientBody$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-            children: children
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
+            className: "antialiased",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$ClientBody$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                children: children
+            }, void 0, false, {
+                fileName: "[project]/src/app/layout.tsx",
+                lineNumber: 47,
+                columnNumber: 9
+            }, this)
         }, void 0, false, {
             fileName: "[project]/src/app/layout.tsx",
-            lineNumber: 41,
-            columnNumber: 13
+            lineNumber: 46,
+            columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 38,
-        columnNumber: 9
+        lineNumber: 42,
+        columnNumber: 5
     }, this);
 }
 }}),

@@ -48,16 +48,16 @@ export function Experience() {
                             <CardContent className="space-y-2">
                                 <ul className="list-disc pl-5 space-y-1.5 text-muted-foreground">
                                     <li>Developed PPC landing websites for multiple hospitals to support targeted advertising campaigns and drive patient
-                                    conversions. </li>
-                                    <li>Implemented performance optimization techniques to reduce page load time, resulting in faster user interactions
-                                    and improved Core Web Vitals.</li>
-                                    <li>Developed and implemented a lead generation form, resulting in increased customer engagement and higher lead
-                                    conversion rates.</li>
-                                    {/* <li>Implemented robust payment workflows using Stripe API.</li>
-                                    <li>Designed efficient database schemas in Supabase, achieving query performance
-                                        gains of 28%.</li>
-                                    <li>Led frontend architecture decisions and mentored interns on software
-                                        development best practices and agile methodologies.</li> */}
+                                    conversions by 25% through targeted advertising campaigns..</li>
+                                    <li>Implemented performance optimization techniques to reduce page load time by 30%, resulting in faster user
+                                    interactions and improved Core Web Vitals scores.</li>
+                                    <li>Developed and implemented a lead generation form that boosted customer engagement by 40% and increased lead
+                                    conversion rates by 15%.</li>
+                                    <li>Assisted in integrating SEO best practices and responsive design to improve website visibility and provide a better
+                                        experience across devices.</li>
+                                        <li className="italic text-white">
+                                            Technologies Used - Html, Css, Bootstrap, Javascript, Google PageSpeed Insights.
+                                            </li>
                                 </ul>
                             </CardContent>
                         </Card>

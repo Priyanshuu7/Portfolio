@@ -765,7 +765,7 @@ function Hero() {
                                 delay: 0.2,
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-xl sm:text-2xl text-foreground/80 max-w-3xl mx-auto mt-6",
-                                    children: "I craft dynamic web pages, integrate databases, and ensure cross-browser compatibility"
+                                    children: "Design and develop interactive web interfaces with robust database integration, ensuring cross-browser compatibility and responsive performance."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Hero.tsx",
                                     lineNumber: 65,
@@ -793,17 +793,17 @@ function Hero() {
                                         size: "lg",
                                         className: "rounded-full px-8",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                            href: "/PriyanshuRajak_resume.pdf",
+                                            href: "/Resume.pdf",
                                             target: "_blank",
                                             children: "View Resume"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Hero.tsx",
-                                            lineNumber: 78,
+                                            lineNumber: 77,
                                             columnNumber: 33
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 77,
+                                        lineNumber: 76,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -816,23 +816,23 @@ function Hero() {
                                             children: "See Projects"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Hero.tsx",
-                                            lineNumber: 81,
+                                            lineNumber: 80,
                                             columnNumber: 33
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 80,
+                                        lineNumber: 79,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 73,
+                                lineNumber: 72,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Hero.tsx",
-                            lineNumber: 72,
+                            lineNumber: 71,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -859,21 +859,21 @@ function Hero() {
                                                     children: "Frontend"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Hero.tsx",
-                                                    lineNumber: 102,
+                                                    lineNumber: 101,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "text-sm text-foreground/70",
-                                                    children: "React, Next.js, TypeScript, Javascript"
+                                                    children: "React.js, Next.js, TypeScript, Javascript"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Hero.tsx",
-                                                    lineNumber: 103,
+                                                    lineNumber: 102,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Hero.tsx",
-                                            lineNumber: 93,
+                                            lineNumber: 92,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -891,21 +891,21 @@ function Hero() {
                                                     children: "Backend"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Hero.tsx",
-                                                    lineNumber: 114,
+                                                    lineNumber: 113,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "text-sm text-foreground/70",
-                                                    children: "Node.js, Express, MongoDB , Postgres"
+                                                    children: "Node.js, Express.js, MongoDB , PostgreSQL, Supabase "
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Hero.tsx",
-                                                    lineNumber: 115,
+                                                    lineNumber: 114,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Hero.tsx",
-                                            lineNumber: 105,
+                                            lineNumber: 104,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -923,37 +923,37 @@ function Hero() {
                                                     children: "Tools"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Hero.tsx",
-                                                    lineNumber: 126,
+                                                    lineNumber: 125,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "text-sm text-foreground/70",
-                                                    children: "Docker, Git, AWS, Vercel, Kafka"
+                                                    children: "Docker, Git, AWS, Vercel, Kafka, Redis"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Hero.tsx",
-                                                    lineNumber: 127,
+                                                    lineNumber: 126,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Hero.tsx",
-                                            lineNumber: 117,
+                                            lineNumber: 116,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Hero.tsx",
-                                    lineNumber: 91,
+                                    lineNumber: 90,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 87,
+                                lineNumber: 86,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Hero.tsx",
-                            lineNumber: 86,
+                            lineNumber: 85,
                             columnNumber: 21
                         }, this)
                     ]
@@ -1273,25 +1273,40 @@ function Experience() {
                                                 className: "list-disc pl-5 space-y-1.5 text-muted-foreground",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        children: "Developed PPC landing websites for multiple hospitals to support targeted advertising campaigns and drive patient conversions. "
+                                                        children: "Developed PPC landing websites for multiple hospitals to support targeted advertising campaigns and drive patient conversions by 25% through targeted advertising campaigns.."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Experience.tsx",
                                                         lineNumber: 50,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        children: "Implemented performance optimization techniques to reduce page load time, resulting in faster user interactions and improved Core Web Vitals."
+                                                        children: "Implemented performance optimization techniques to reduce page load time by 30%, resulting in faster user interactions and improved Core Web Vitals scores."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Experience.tsx",
                                                         lineNumber: 52,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        children: "Developed and implemented a lead generation form, resulting in increased customer engagement and higher lead conversion rates."
+                                                        children: "Developed and implemented a lead generation form that boosted customer engagement by 40% and increased lead conversion rates by 15%."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Experience.tsx",
                                                         lineNumber: 54,
                                                         columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        children: "Assisted in integrating SEO best practices and responsive design to improve website visibility and provide a better experience across devices."
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/Experience.tsx",
+                                                        lineNumber: 56,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        className: "italic text-white",
+                                                        children: "Technologies Used - Html, Css, Bootstrap, Javascript, Google PageSpeed Insights."
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/Experience.tsx",
+                                                        lineNumber: 58,
+                                                        columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
@@ -1479,38 +1494,39 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 const projects = [
     {
         title: "Labelify",
-        description: "Developed a full-stack decentralized application (dApp) for task creation and fulfillment," + " integrating Solana blockchain for secure and transparent payment handling.",
+        description: "Developed a full-stack decentralized application (dApp) for task creation and fulfillment, " + "integrating Solana blockchain for secure and transparent payment handling.",
         technologies: [
             "Nextjs",
             "Nodejs",
             "Prisma",
             "Web3",
-            "AWS"
+            "AWS",
+            "PostgreSQL"
         ],
-        link: "#",
-        github: "#"
+        link: "https://labelify-wine.vercel.app/",
+        github: "https://github.com/Priyanshuu7/Labelify"
     },
     {
-        title: "Dhani",
-        description: "A Transaction app that allows users to send and receive money. A fixed amount of" + " Rs.8000 is allocated to the user on initial signup that can be used to make tra" + "nsactions.",
+        title: "Shedulux",
+        description: "Built Schedulux, a full-stack scheduling app that lets users create custom booking links, sync calendars in real time " + "via Nylas API, auto-generate meeting links, and manage availability — secured with Auth.js/Supabase, styled with Tailwind CSS, " + "and powered by Next.js Server Actions and Prisma ORM.",
         technologies: [
-            "Javascript",
-            "Express.js",
-            "React.js",
-            "Node.js",
-            "MongoDB"
+            "Nextjs",
+            "Prisma",
+            "Auth.js",
+            "Supabase",
+            "Nylas-Api"
         ],
         link: "#",
-        github: "#"
+        github: "https://github.com/Priyanshuu7/Schedulux"
     },
     {
-        title: "ChainChat",
-        description: "Architected scalable social media platform with real-time recursive commenting f" + "ollowing and secure user authentication integrated through Clerk.",
+        title: "Chainchat",
+        description: "A social media platform tailored for athletes. Connect with fellow athletes and share your journey.",
         technologies: [
-            "TypeScript",
-            "Next.js",
-            "PostgreSQL",
-            "Prisma"
+            "Nextjs",
+            "Prisma",
+            "Clerk",
+            "PostgreSQL"
         ],
         link: "#",
         github: "#"
@@ -1538,7 +1554,7 @@ function Projects() {
                             children: "Technical Projects"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Projects.tsx",
-                            lineNumber: 62,
+                            lineNumber: 68,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1546,13 +1562,13 @@ function Projects() {
                             children: "A selection of my recent work and open source contributions"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Projects.tsx",
-                            lineNumber: 63,
+                            lineNumber: 69,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Projects.tsx",
-                    lineNumber: 61,
+                    lineNumber: 67,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1576,7 +1592,7 @@ function Projects() {
                                                 children: project.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Projects.tsx",
-                                                lineNumber: 85,
+                                                lineNumber: 91,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardDescription"], {
@@ -1584,13 +1600,13 @@ function Projects() {
                                                 children: project.description
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Projects.tsx",
-                                                lineNumber: 86,
+                                                lineNumber: 92,
                                                 columnNumber: 37
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Projects.tsx",
-                                        lineNumber: 84,
+                                        lineNumber: 90,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1602,17 +1618,17 @@ function Projects() {
                                                     children: tech
                                                 }, tech, false, {
                                                     fileName: "[project]/src/components/Projects.tsx",
-                                                    lineNumber: 93,
+                                                    lineNumber: 99,
                                                     columnNumber: 49
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Projects.tsx",
-                                            lineNumber: 89,
+                                            lineNumber: 95,
                                             columnNumber: 37
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Projects.tsx",
-                                        lineNumber: 88,
+                                        lineNumber: 94,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardFooter"], {
@@ -1632,25 +1648,25 @@ function Projects() {
                                                             className: "h-4 w-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Projects.tsx",
-                                                            lineNumber: 104,
+                                                            lineNumber: 110,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "GitHub"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Projects.tsx",
-                                                            lineNumber: 105,
+                                                            lineNumber: 111,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/Projects.tsx",
-                                                    lineNumber: 99,
+                                                    lineNumber: 105,
                                                     columnNumber: 41
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Projects.tsx",
-                                                lineNumber: 98,
+                                                lineNumber: 104,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1666,58 +1682,58 @@ function Projects() {
                                                             children: "Visit"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Projects.tsx",
-                                                            lineNumber: 114,
+                                                            lineNumber: 120,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$external$2d$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ExternalLink$3e$__["ExternalLink"], {
                                                             className: "h-4 w-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Projects.tsx",
-                                                            lineNumber: 115,
+                                                            lineNumber: 121,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/Projects.tsx",
-                                                    lineNumber: 109,
+                                                    lineNumber: 115,
                                                     columnNumber: 41
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Projects.tsx",
-                                                lineNumber: 108,
+                                                lineNumber: 114,
                                                 columnNumber: 37
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Projects.tsx",
-                                        lineNumber: 97,
+                                        lineNumber: 103,
                                         columnNumber: 33
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Projects.tsx",
-                                lineNumber: 82,
+                                lineNumber: 88,
                                 columnNumber: 29
                             }, this)
                         }, project.title, false, {
                             fileName: "[project]/src/components/Projects.tsx",
-                            lineNumber: 72,
+                            lineNumber: 78,
                             columnNumber: 25
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/Projects.tsx",
-                    lineNumber: 68,
+                    lineNumber: 74,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Projects.tsx",
-            lineNumber: 60,
+            lineNumber: 66,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/Projects.tsx",
-        lineNumber: 51,
+        lineNumber: 57,
         columnNumber: 9
     }, this);
 }
@@ -1794,7 +1810,8 @@ const categories = [
             "C++",
             "TypeScript",
             "JavaScript",
-            "python"
+            "Python",
+            "Java"
         ]
     },
     {
@@ -1803,8 +1820,7 @@ const categories = [
             "React.js",
             "Next.js",
             "Express.js",
-            "Node.js",
-            "Vercel"
+            "Node.js"
         ]
     },
     {
@@ -1823,12 +1839,13 @@ const categories = [
             "GitHub",
             "Prisma",
             "Linux",
-            "Canva",
+            "Postman",
             "AWS",
             "Kafka",
             "Netlify",
             "Render",
-            "Vercel"
+            "Vercel",
+            "Redis"
         ]
     }
 ];
@@ -1853,7 +1870,7 @@ function Skills() {
                             children: "Technical Skills"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Skills.tsx",
-                            lineNumber: 50,
+                            lineNumber: 51,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1861,13 +1878,13 @@ function Skills() {
                             children: "Tools and technologies I work with"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Skills.tsx",
-                            lineNumber: 51,
+                            lineNumber: 52,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Skills.tsx",
-                    lineNumber: 49,
+                    lineNumber: 50,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1889,14 +1906,14 @@ function Skills() {
                                     children: category.name
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Skills.tsx",
-                                    lineNumber: 71,
+                                    lineNumber: 72,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$separator$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Separator"], {
                                     className: "mb-4"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Skills.tsx",
-                                    lineNumber: 72,
+                                    lineNumber: 73,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1911,34 +1928,34 @@ function Skills() {
                                             children: skill
                                         }, skill, false, {
                                             fileName: "[project]/src/components/Skills.tsx",
-                                            lineNumber: 77,
+                                            lineNumber: 78,
                                             columnNumber: 41
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Skills.tsx",
-                                    lineNumber: 73,
+                                    lineNumber: 74,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, category.name, true, {
                             fileName: "[project]/src/components/Skills.tsx",
-                            lineNumber: 60,
+                            lineNumber: 61,
                             columnNumber: 25
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/Skills.tsx",
-                    lineNumber: 56,
+                    lineNumber: 57,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Skills.tsx",
-            lineNumber: 48,
+            lineNumber: 49,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/Skills.tsx",
-        lineNumber: 39,
+        lineNumber: 40,
         columnNumber: 9
     }, this);
 }
@@ -2286,7 +2303,7 @@ function Footer() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "mt-2 text-muted-foreground",
-                                    children: "Full Stack Developer specializing in React, Next.js, and modern web technologies."
+                                    children: "Full Stack Developer crafting scalable web apps using React, Next.js, and cutting-edge technologies."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Footer.tsx",
                                     lineNumber: 24,
@@ -2308,7 +2325,7 @@ function Footer() {
                                             children: "Links"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer.tsx",
-                                            lineNumber: 31,
+                                            lineNumber: 30,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2321,12 +2338,12 @@ function Footer() {
                                                         children: "Experience"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer.tsx",
-                                                        lineNumber: 34,
+                                                        lineNumber: 33,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Footer.tsx",
-                                                    lineNumber: 33,
+                                                    lineNumber: 32,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2336,12 +2353,12 @@ function Footer() {
                                                         children: "Projects"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer.tsx",
-                                                        lineNumber: 41,
+                                                        lineNumber: 40,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Footer.tsx",
-                                                    lineNumber: 40,
+                                                    lineNumber: 39,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2351,12 +2368,12 @@ function Footer() {
                                                         children: "Skills"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer.tsx",
-                                                        lineNumber: 48,
+                                                        lineNumber: 47,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Footer.tsx",
-                                                    lineNumber: 47,
+                                                    lineNumber: 46,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2366,24 +2383,24 @@ function Footer() {
                                                         children: "Contact"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer.tsx",
-                                                        lineNumber: 55,
+                                                        lineNumber: 54,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Footer.tsx",
-                                                    lineNumber: 54,
+                                                    lineNumber: 53,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Footer.tsx",
-                                            lineNumber: 32,
+                                            lineNumber: 31,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Footer.tsx",
-                                    lineNumber: 30,
+                                    lineNumber: 29,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2393,7 +2410,7 @@ function Footer() {
                                             children: "Connect"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer.tsx",
-                                            lineNumber: 64,
+                                            lineNumber: 63,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2408,12 +2425,12 @@ function Footer() {
                                                         children: "GitHub"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer.tsx",
-                                                        lineNumber: 67,
+                                                        lineNumber: 66,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Footer.tsx",
-                                                    lineNumber: 66,
+                                                    lineNumber: 65,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2425,12 +2442,12 @@ function Footer() {
                                                         children: "LinkedIn"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer.tsx",
-                                                        lineNumber: 76,
+                                                        lineNumber: 75,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Footer.tsx",
-                                                    lineNumber: 75,
+                                                    lineNumber: 74,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2440,30 +2457,30 @@ function Footer() {
                                                         children: "Email"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Footer.tsx",
-                                                        lineNumber: 85,
+                                                        lineNumber: 84,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Footer.tsx",
-                                                    lineNumber: 84,
+                                                    lineNumber: 83,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Footer.tsx",
-                                            lineNumber: 65,
+                                            lineNumber: 64,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Footer.tsx",
-                                    lineNumber: 63,
+                                    lineNumber: 62,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Footer.tsx",
-                            lineNumber: 29,
+                            lineNumber: 28,
                             columnNumber: 21
                         }, this)
                     ]
@@ -2476,7 +2493,7 @@ function Footer() {
                     className: "my-8"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Footer.tsx",
-                    lineNumber: 96,
+                    lineNumber: 95,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2486,12 +2503,12 @@ function Footer() {
                         children: "Designed & Built with ❤️ by Priyanshu."
                     }, void 0, false, {
                         fileName: "[project]/src/components/Footer.tsx",
-                        lineNumber: 99,
+                        lineNumber: 98,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Footer.tsx",
-                    lineNumber: 98,
+                    lineNumber: 97,
                     columnNumber: 17
                 }, this)
             ]

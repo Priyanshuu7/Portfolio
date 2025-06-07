@@ -17,33 +17,39 @@ import {ExternalLink, Github} from "lucide-react";
 const projects = [
     {
         title: "Labelify",
-        description: "Developed a full-stack decentralized application (dApp) for task creation and fulfillment," +
-                " integrating Solana blockchain for secure and transparent payment handling.",
+        description: "Developed a full-stack decentralized application (dApp) for task creation and fulfillment, " +
+        "integrating Solana blockchain for secure and transparent payment handling.",
+
         technologies: [
-            "Nextjs", "Nodejs", "Prisma", "Web3", "AWS"
+            "Nextjs", "Nodejs", "Prisma", "Web3", "AWS" ,"PostgreSQL"
+        ],
+        link: "https://labelify-wine.vercel.app/",
+        github: "https://github.com/Priyanshuu7/Labelify"
+    },
+    {
+        title: "Shedulux",
+        description: "Built Schedulux, a full-stack scheduling app that lets users create custom booking links, sync calendars in real time " +
+        "via Nylas API, auto-generate meeting links, and manage availability — secured with Auth.js/Supabase, styled with Tailwind CSS, " +
+        "and powered by Next.js Server Actions and Prisma ORM.",
+
+
+        technologies: [
+            "Nextjs", "Prisma", "Auth.js", "Supabase" ,"Nylas-Api"
+        ],
+        link: "#",
+        github: "https://github.com/Priyanshuu7/Schedulux"
+    },
+    {
+        title: "Chainchat",
+        description: "A social media platform tailored for athletes. Connect with fellow athletes and share your journey.",
+
+
+        technologies: [
+            "Nextjs", "Prisma", "Clerk" ,"PostgreSQL"
         ],
         link: "#",
         github: "#"
-    }, {
-        title: "Dhani",
-        description: "A Transaction app that allows users to send and receive money. A fixed amount of" +
-                " Rs.8000 is allocated to the user on initial signup that can be used to make tra" +
-                "nsactions.",
-        technologies: [
-            "Javascript", "Express.js", "React.js", "Node.js", "MongoDB"
-        ],
-        link: "#",
-        github: "#"
-    }, {
-        title: "ChainChat",
-        description: "Architected scalable social media platform with real-time recursive commenting f" +
-                "ollowing and secure user authentication integrated through Clerk.",
-        technologies: [
-            "TypeScript", "Next.js", "PostgreSQL", "Prisma"
-        ],
-        link: "#",
-        github: "#"
-    }
+    },
 ];
 
 export function Projects() {
