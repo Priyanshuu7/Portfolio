@@ -3,24 +3,24 @@
 @tailwind utilities;
 @layer base {
     :root {
-        --background: 240 10% 3.9%;
+        --background: 0 0% 0%;
         --foreground: 0 0 98%;
-        --card: 240 10% 3.9%;
+        --card: 0 0% 0%;
         --card-foreground: 0 0 98%;
-        --popover: 240 10% 3.9%;
+        --popover: 0 0% 0%;
         --popover-foreground: 0 0 98%;
         --primary: 0 0 98%;
-        --primary-foreground: 240 5.9% 10%;
-        --secondary: 240 3.7% 15.9%;
+        --primary-foreground: 0 0% 0%;
+        --secondary: 0 0% 10%;
         --secondary-foreground: 0 0 98%;
-        --muted: 240 3.7% 15.9%;
+        --muted: 0 0% 10%;
         --muted-foreground: 240 5% 64.9%;
-        --accent: 240 3.7% 15.9%;
+        --accent: 0 0% 10%;
         --accent-foreground: 0 0 98%;
         --destructive: 0 62.8% 30.6%;
         --destructive-foreground: 0 0 98%;
-        --border: 240 3.7% 15.9%;
-        --input: 240 3.7% 15.9%;
+        --border: 0 0% 10%;
+        --input: 0 0% 10%;
         --ring: 240 4.9% 83.9%;
         --radius: 0.5rem;
         --chart-1: 12 76% 61%;
@@ -31,24 +31,24 @@
     }
 
     .dark {
-        --background: 240 10% 3.9%;
+        --background: 0 0% 0%;
         --foreground: 0 0 98%;
-        --card: 240 10% 3.9%;
+        --card: 0 0% 0%;
         --card-foreground: 0 0 98%;
-        --popover: 240 10% 3.9%;
+        --popover: 0 0% 0%;
         --popover-foreground: 0 0 98%;
         --primary: 0 0 98%;
-        --primary-foreground: 240 5.9% 10%;
-        --secondary: 240 3.7% 15.9%;
+        --primary-foreground: 0 0% 0%;
+        --secondary: 0 0% 10%;
         --secondary-foreground: 0 0 98%;
-        --muted: 240 3.7% 15.9%;
+        --muted: 0 0% 10%;
         --muted-foreground: 240 5% 64.9%;
-        --accent: 240 3.7% 15.9%;
+        --accent: 0 0% 10%;
         --accent-foreground: 0 0 98%;
         --destructive: 0 62.8% 30.6%;
         --destructive-foreground: 0 0 98%;
-        --border: 240 3.7% 15.9%;
-        --input: 240 3.7% 15.9%;
+        --border: 0 0% 10%;
+        --input: 0 0% 10%;
         --ring: 240 4.9% 83.9%;
         --chart-1: 220 70% 50%;
         --chart-2: 160 60% 45%;
@@ -198,4 +198,10 @@
 
 .bg-radial-gradient {
     background-image: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.poiret-one-regular {
+    font-family: var(--font-poiret-one), "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }

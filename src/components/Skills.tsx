@@ -3,43 +3,13 @@
 import {motion} from "framer-motion";
 import {fadeInVariants, slideUpVariants} from "@/lib/animations";
 import {AnimatedSection} from "@/components/AnimatedSection";
-import {Badge} from "@/components/ui/badge";
-import {Separator} from "@/components/ui/separator";
-
-const categories = [
-    {
-        name: "Languages",
-        skills: ["C++", "TypeScript", "JavaScript", "Python", "Java"]
-    }, {
-        name: "Frameworks",
-        skills: ["React.js", "Next.js", "Express.js", "Node.js",]
-    }, {
-        name: "Databases",
-        skills: ["PostgreSQL", "MongoDB", "Supabase"]
-    }, {
-        name: "Tools & Technologies",
-        skills: [
-            "Docker",
-            "Git",
-            "GitHub",
-            "Prisma",
-            "Linux",
-            "Postman",
-            "AWS",
-            "Kafka",
-            "Netlify",
-            "Render",
-            "Vercel",
-            "Redis"
-        ]
-    }
-];
+import {Icon} from "@iconify/react";
 
 export function Skills() {
     return (
         <motion.section
             id="skills"
-            className="py-24 bg-black/50"
+            className="py-24"
             initial="hidden"
             whileInView="visible"
             viewport={{
@@ -47,65 +17,111 @@ export function Skills() {
         }}
             variants={fadeInVariants}>
             <div className="container max-w-5xl mx-auto px-4 sm:px-6">
-                <AnimatedSection className="text-center mb-16">
-                    <h2 className="text-3xl font-bold mb-4">Technical Skills</h2>
-                    <p className="text-muted-foreground max-w-2xl mx-auto">
-                        Tools and technologies I work with
-                    </p>
+                <AnimatedSection className="text-left mb-16">
+                    <h2 className="text-5xl font-poiret-one font-bold mb-4">Technical Skills</h2>
                 </AnimatedSection>
 
-                <motion.div
-                    className="grid grid-cols-1 md:grid-cols-2 gap-8"
-                    variants={slideUpVariants}>
-                    {categories.map((category, categoryIndex) => (
-                        <motion.div
-                            key={category.name}
-                            variants={slideUpVariants}
-                            whileHover={{
-                            scale: 1.02
-                        }}
-                            transition={{
-                            type: "spring",
-                            stiffness: 300
-                        }}
-                            className="bg-background/50 backdrop-blur-sm rounded-xl border p-6">
-                            <h3 className="text-xl font-semibold mb-4">{category.name}</h3>
-                            <Separator className="mb-4"/>
-                            <div className="flex flex-wrap gap-2">
-                                {category
-                                    .skills
-                                    .map((skill, skillIndex) => (
-                                        <Badge
-                                            key={skill}
-                                            // className="animate-float"
-                                            style={{
-                                            animationDelay: `${skillIndex * 0.2}s`,
-                                            backgroundColor: getSkillColor(skillIndex),
-                                            color: 'white'
-                                        }}>
-                                            {skill}
-                                        </Badge>
-                                    ))}
+                <motion.div variants={slideUpVariants}>
+                    <motion.div variants={slideUpVariants}>
+                        
+                        {/* Languages Section */}
+                        <div className="flex items-center gap-6 mb-8">
+                            <h4 className="text-xl font-poiret-one font-bold">Languages</h4>
+                            <div className="flex flex-wrap gap-3">
+                                <div className="flex items-center gap-2.5 px-4 py-2 bg-background rounded-full hover:shadow-lg transition-shadow" style={{opacity: 1, transform: 'none'}}>
+                                    {/* TypeScript Icon */}
+                                    <Icon icon="skill-icons:typescript" className="w-5 h-5" />
+                                    <span className="text-sm">TypeScript</span>
+                                </div>
+                                <div className="flex items-center gap-2.5 px-4 py-2 bg-background rounded-full hover:shadow-lg transition-shadow" style={{opacity: 1, transform: 'none'}}>
+                                    {/* JavaScript Icon */}
+                                    <Icon icon="skill-icons:javascript" className="w-5 h-5" />
+                                    <span className="text-sm">JavaScript</span>
+                                </div>
+                                <div className="flex items-center gap-2.5 px-4 py-2 bg-background rounded-full hover:shadow-lg transition-shadow" style={{opacity: 1, transform: 'none'}}>
+                                    {/* Python Icon */}
+                                    <Icon icon="skill-icons:python-dark" className="w-5 h-5" />
+                                    <span className="text-sm">Python</span>
+                                </div>
+                                <div className="flex items-center gap-2.5 px-4 py-2 bg-background rounded-full hover:shadow-lg transition-shadow" style={{opacity: 1, transform: 'none'}}>
+                                    {/* Java Icon */}
+                                    <Icon icon="skill-icons:java-dark" className="w-5 h-5" />
+                                    <span className="text-sm">Java</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Frameworks Section */}
+                        <div className="flex items-center gap-6 mb-8">
+                            <h4 className="text-xl font-poiret-one font-bold">Frameworks</h4>
+                            <div className="flex flex-wrap gap-3">
+                                <div className="flex items-center gap-2.5 px-4 py-2 bg-background rounded-full hover:shadow-lg transition-shadow" style={{opacity: 1, transform: 'none'}}>
+                                    <Icon icon="skill-icons:react-dark" className="w-5 h-5" />
+                                    <span className="text-sm">React.js</span>
+                                </div>
+                                <div className="flex items-center gap-2.5 px-4 py-2 bg-background rounded-full hover:shadow-lg transition-shadow" style={{opacity: 1, transform: 'none'}}>
+                                    <Icon icon="skill-icons:nextjs-dark" className="w-5 h-5" />
+                                    <span className="text-sm">Next.js</span>
+                                </div>
+                                <div className="flex items-center gap-2.5 px-4 py-2 bg-background rounded-full hover:shadow-lg transition-shadow" style={{opacity: 1, transform: 'none'}}>
+                                    <Icon icon="skill-icons:nodejs-dark" className="w-5 h-5" />
+                                    <span className="text-sm">Node.js</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Databases Section */}
+                        <div className="flex items-center gap-6 mb-8">
+                            <h4 className="text-xl font-poiret-one font-bold">Databases</h4>
+                            <div className="flex flex-wrap gap-3">
+                                <div className="flex items-center gap-2.5 px-4 py-2 bg-background rounded-full hover:shadow-lg transition-shadow" style={{opacity: 1, transform: 'none'}}>
+                                    <Icon icon="skill-icons:mongodb" className="w-5 h-5" />
+                                    <span className="text-sm">MongoDB</span>
+                                </div>
+                                <div className="flex items-center gap-2.5 px-4 py-2 bg-background rounded-full hover:shadow-lg transition-shadow" style={{opacity: 1, transform: 'none'}}>
+                                    <Icon icon="skill-icons:supabase-dark" className="w-5 h-5" />
+                                    <span className="text-sm">Supabase</span>
+                                </div>
+                                <div className="flex items-center gap-2.5 px-4 py-2 bg-background rounded-full hover:shadow-lg transition-shadow" style={{opacity: 1, transform: 'none'}}>
+                                    <Icon icon="skill-icons:postgresql-dark" className="w-5 h-5" />
+                                    <span className="text-sm">PostgreSQL</span>
+                                </div>
+                                <div className="flex items-center gap-2.5 px-4 py-2 bg-background rounded-full hover:shadow-lg transition-shadow" style={{opacity: 1, transform: 'none'}}>
+                                    <Icon icon="skill-icons:mysql-dark" className="w-5 h-5" />
+                                    <span className="text-sm">MySQL</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Misc Section */}
+                        <div className="flex items-center gap-6 mb-8">
+                            <h4 className="text-xl font-poiret-one font-bold">Misc</h4>
+                            <div className="flex flex-wrap gap-3">
+                                <div className="flex items-center gap-2.5 px-4 py-2 bg-background rounded-full hover:shadow-lg transition-shadow" style={{opacity: 1, transform: 'none'}}>
+                                    <Icon icon="skill-icons:vercel-dark" className="w-5 h-5" />
+                                    <span className="text-sm">Vercel</span>
+                                </div>
+                                <div className="flex items-center gap-2.5 px-4 py-2 bg-background rounded-full hover:shadow-lg transition-shadow" style={{opacity: 1, transform: 'none'}}>
+                                    <Icon icon="skill-icons:linux-dark" className="w-5 h-5" />
+                                    <span className="text-sm">Linux</span>
+                                </div>
+                                <div className="flex items-center gap-2.5 px-4 py-2 bg-background rounded-full hover:shadow-lg transition-shadow" style={{opacity: 1, transform: 'none'}}>
+                                    <Icon icon="skill-icons:prisma" className="w-5 h-5" />
+                                    <span className="text-sm">Prisma</span>
+                                </div>
+                                <div className="flex items-center gap-2.5 px-4 py-2 bg-background rounded-full hover:shadow-lg transition-shadow" style={{opacity: 1, transform: 'none'}}>
+                                    <Icon icon="skill-icons:git" className="w-5 h-5" />
+                                    <span className="text-sm">Git</span>
+                                </div>
+                                <div className="flex items-center gap-2.5 px-4 py-2 bg-background rounded-full hover:shadow-lg transition-shadow" style={{opacity: 1, transform: 'none'}}>
+                                    <Icon icon="skill-icons:vim-dark" className="w-5 h-5" />
+                                    <span className="text-sm">Vim</span>
+                                </div>
+                            </div>
                             </div>
                         </motion.div>
-                    ))}
                 </motion.div>
             </div>
         </motion.section>
     );
-}
-
-function getSkillColor(index : number) : string {
-    const colors = [
-        "#4f46e5", // indigo
-        "#0ea5e9", // sky
-        "#8b5cf6", // violet
-        "#ec4899", // pink
-        "#f97316", // orange
-        "#84cc16", // lime
-        "#14b8a6", // teal
-        "#06b6d4", // cyan
-    ];
-
-    return colors[index % colors.length];
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import {AnimatedSection, AnimatedText} from "@/components/AnimatedSection";
+import {AnimatedSection} from "@/components/AnimatedSection";
 import {Button} from "@/components/ui/button";
 import {FloatingBlobs} from "@/components/FloatingBlobs";
 import {GradientBackground} from "@/components/GradientBackground";
@@ -8,7 +8,6 @@ import Link from "next/link";
 import {motion} from "framer-motion";
 
 export function Hero() {
-    // Animation variants for the container
     const containerVariants = {
         hidden: {
             opacity: 0
@@ -22,7 +21,6 @@ export function Hero() {
         }
     };
 
-    // Animation variants for individual elements
     const itemVariants = {
         hidden: {
             opacity: 0,
@@ -48,84 +46,47 @@ export function Hero() {
                 className="min-h-screen flex flex-col items-center justify-center px-4 sm:px-8 relative">
                 <FloatingBlobs/>
 
-                <div className="container max-w-5xl mx-auto pt-32 pb-24 relative z-10">
-                    <motion.div variants={itemVariants}>
-                        <AnimatedText className="text-center mb-6" animation="fadeIn">
-                            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
-                                <span
-                                    className="gradient-text bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500">
-                                    Priyanshu Rajak
-                                </span>
-                            </h1>
-                        </AnimatedText>
-                    </motion.div>
+                <div
+                    className="w-full flex flex-col justify-start items-start text-left relative z-8  px-8 sm:px-16">
+                    {/* className="w-full flex flex-col justify-start items-start text-left 0 relative z-8  px-8 sm:px-16"> */}
 
                     <motion.div variants={itemVariants}>
-                        <AnimatedSection className="text-center mb-12" animation="slideUp" delay={0.2}>
-                            <p className="text-xl sm:text-2xl text-foreground/80 max-w-3xl mx-auto mt-6">
-                            Design and develop interactive web interfaces with robust database integration, ensuring cross-browser compatibility and responsive performance.
+                        <AnimatedSection animation="slideUp" delay={0.2}>
+                            <p
+                                className="text-2xl sm:text-6xl text-foreground/90 font-poiret-one font-bold  leading-relaxed">
+                                Design and develop interactive web interfaces with robust database integration,
+                                ensuring cross-browser compatibility and responsive performance.
                             </p>
                         </AnimatedSection>
                     </motion.div>
 
                     <motion.div variants={itemVariants}>
                         <AnimatedSection
-                            className="flex flex-wrap justify-center gap-4 mt-8"
+                            className="flex flex-wrap justify-start gap-4 mt-12"
                             animation="slideUp"
                             delay={0.4}>
-                            <Button asChild size="lg" className="rounded-full px-8">
+                            <Button
+                                asChild
+                                size="lg"
+                                className="
+                                            rounded-full
+                                            px-8
+                                            tracking-wide
+                                            shadow-lg
+                                            transition-all  
+                                            duration-300
+                                            ease-in-out
+                                            hover:scale-105
+                                            hover:shadow-2xl
+                                            hover:bg-primary/90
+                                            focus:outline-none
+                                            focus:ring-4
+                                            focus:ring-primary/50
+                                            focus:ring-offset-2
+                                        ">
                                 <Link href="/Resume.pdf" target="_blank">View Resume</Link>
                             </Button>
-                            <Button asChild variant="outline" size="lg" className="rounded-full px-8">
-                                <Link href="#projects">See Projects</Link>
-                            </Button>
-                        </AnimatedSection>
-                    </motion.div>
 
-                    <motion.div variants={itemVariants}>
-                        <AnimatedSection
-                            className="mt-24 flex flex-col items-center"
-                            animation="slideUp"
-                            delay={0.6}>
-                            <div
-                                className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:grid-cols-3 max-w-4xl mx-auto">
-                                <motion.div
-                                    className="bg-white/5 backdrop-blur-sm border rounded-xl p-6 transition-transform hover:scale-105"
-                                    whileHover={{
-                                    scale: 1.05
-                                }}
-                                    transition={{
-                                    type: "spring",
-                                    stiffness: 300
-                                }}>
-                                    <h3 className="text-lg font-semibold mb-2">Frontend</h3>
-                                    <p className="text-sm text-foreground/70">React.js, Next.js, TypeScript, Javascript</p>
-                                </motion.div>
-                                <motion.div
-                                    className="bg-white/5 backdrop-blur-sm border rounded-xl p-6 transition-transform hover:scale-105"
-                                    whileHover={{
-                                    scale: 1.05
-                                }}
-                                    transition={{
-                                    type: "spring",
-                                    stiffness: 300
-                                }}>
-                                    <h3 className="text-lg font-semibold mb-2">Backend</h3>
-                                    <p className="text-sm text-foreground/70">Node.js, Express.js, MongoDB , PostgreSQL, Supabase </p>
-                                </motion.div>
-                                <motion.div
-                                    className="bg-white/5 backdrop-blur-sm border rounded-xl p-6 transition-transform hover:scale-105"
-                                    whileHover={{
-                                    scale: 1.05
-                                }}
-                                    transition={{
-                                    type: "spring",
-                                    stiffness: 300
-                                }}>
-                                    <h3 className="text-lg font-semibold mb-2">Tools</h3>
-                                    <p className="text-sm text-foreground/70">Docker, Git, AWS, Vercel, Kafka, Redis</p>
-                                </motion.div>
-                            </div>
                         </AnimatedSection>
                     </motion.div>
                 </div>
