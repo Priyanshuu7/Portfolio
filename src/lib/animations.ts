@@ -46,7 +46,8 @@ export const fadeInVariants = {
         opacity: 1,
         transition: {
             duration: 0.5,
-            staggerChildren: 0.2
+            staggerChildren: 0.2,
+            
         }
     }
 };
@@ -60,8 +61,7 @@ export const slideUpVariants = {
         opacity: 1,
         y: 0,
         transition: {
-            duration: 0.5,
-            ease: "easeOut"
+            duration: 0.5
         }
     }
 };
@@ -75,8 +75,7 @@ export const slideInVariants = {
         opacity: 1,
         x: 0,
         transition: {
-            duration: 0.5,
-            ease: "easeOut"
+            duration: 0.5
         }
     }
 };

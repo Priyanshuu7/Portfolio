@@ -49,6 +49,11 @@ export default function RootLayout({ children }: RootLayoutProps) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${poiretOne.variable} scroll-smooth dark`}
     >
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap" rel="stylesheet" />
+      </head>
       <body className="antialiased">
         <ClientBody>{children}</ClientBody>
       </body>

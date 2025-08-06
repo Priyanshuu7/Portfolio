@@ -1,9 +1,10 @@
 "use client";
 
-import {AnimatedSection} from "@/components/AnimatedSection";
-import {Button} from "@/components/ui/button";
+import { AnimatedSection } from "@/components/AnimatedSection";
+import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
+import { BackgroundBeams } from "./ui/background-beams";
 
 export function Hero() {
     const containerVariants = {
@@ -22,43 +23,49 @@ export function Hero() {
         visible: {
             opacity: 1,
             y: 0,
-            transition: { duration: 0.5, ease: "easeOut" }
+            transition: { duration: 0.5 }
         }
     };
 
     return (
-        <motion.div
-            className="min-h-screen flex items-center justify-center px-4 sm:px-8"
-            initial="hidden"
-            animate="visible"
-            variants={containerVariants}
-        >
-            <div className="w-full flex flex-col justify-start items-start text-left pt-28 pb-24 relative z-8 px-8 sm:px-16">
-                <motion.div variants={itemVariants}>
-                    <AnimatedSection animation="slideUp" delay={0.2}>
-                        <p className="text-2xl sm:text-6xl text-foreground/90 mt-4 font-poiret-one font-bold leading-relaxed">
-                            Design and develop interactive web interfaces with robust database integration,
-                            ensuring cross-browser compatibility and responsive performance.
-                        </p>
-                    </AnimatedSection>
-                </motion.div>
+        <div className="relative isolate min-h-screen w-full overflow-hidden">
+            {/* Background Effect */}
+            <BackgroundBeams />
 
-                <motion.div variants={itemVariants}>
-                    <AnimatedSection
-                        className="flex flex-wrap justify-start gap-4 mt-12"
-                        animation="slideUp"
-                        delay={0.4}
-                    >
-                        <Button
-                            asChild
-                            size="lg"
-                            className="rounded-full px-8 tracking-wide shadow-lg transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:bg-primary/90 focus:outline-none focus:ring-4 focus:ring-primary/50 focus:ring-offset-2"
+            {/* Foreground Content */}
+            <motion.div
+                className="relative z-10 flex items-center justify-center min-h-screen px-4 sm:px-8"
+                initial="hidden"
+                animate="visible"
+                variants={containerVariants}
+            >
+                <div className="w-full flex flex-col justify-start items-start text-left pt-28 pb-24 px-8 sm:px-16">
+                    <motion.div variants={itemVariants}>
+                        <AnimatedSection animation="slideUp" delay={0.2}>
+                            <p className="text-2xl sm:text-6xl text-foreground/90 mt-4 font-poiret-one font-bold leading-relaxed">
+                                Design and develop interactive web interfaces with robust database integration,
+                                ensuring cross-browser compatibility and responsive performance.
+                            </p>
+                        </AnimatedSection>
+                    </motion.div>
+
+                    <motion.div variants={itemVariants}>
+                        <AnimatedSection
+                            className="flex flex-wrap justify-start gap-4 mt-12"
+                            animation="slideUp"
+                            delay={0.4}
                         >
-                            <Link href="/Resume.pdf" target="_blank">View Resume</Link>
-                        </Button>
-                    </AnimatedSection>
-                </motion.div>
-            </div>
-        </motion.div>
+                            <Button
+                                asChild
+                                size="lg"
+                                className="rounded-full px-8 tracking-wide shadow-lg transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:bg-primary/90 focus:outline-none focus:ring-4 focus:ring-primary/50 focus:ring-offset-2"
+                            >
+                                <Link href="/Resume.pdf" target="_blank">View Resume</Link>
+                            </Button>
+                        </AnimatedSection>
+                    </motion.div>
+                </div>
+            </motion.div>
+        </div>
     );
 }

@@ -11,6 +11,7 @@ export default {
   	extend: {
   		fontFamily: {
   			'poiret-one': ['var(--font-poiret-one)', 'Poiret One', 'sans-serif'],
+  			'bitcount-single': ['"Bitcount Single"', 'system-ui', 'sans-serif'],
   		},
   		colors: {
   			background: 'hsl(var(--background))',
