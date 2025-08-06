@@ -2,16 +2,12 @@
 
 import {AnimatedSection} from "@/components/AnimatedSection";
 import {Button} from "@/components/ui/button";
-import {FloatingBlobs} from "@/components/FloatingBlobs";
-import {GradientBackground} from "@/components/GradientBackground";
 import Link from "next/link";
 import {motion} from "framer-motion";
 
 export function Hero() {
     const containerVariants = {
-        hidden: {
-            opacity: 0
-        },
+        hidden: { opacity: 0 },
         visible: {
             opacity: 1,
             transition: {
@@ -22,75 +18,47 @@ export function Hero() {
     };
 
     const itemVariants = {
-        hidden: {
-            opacity: 0,
-            y: 20
-        },
+        hidden: { opacity: 0, y: 20 },
         visible: {
             opacity: 1,
             y: 0,
-            transition: {
-                duration: 0.5,
-                ease: "easeOut"
-            }
+            transition: { duration: 0.5, ease: "easeOut" }
         }
     };
 
     return (
         <motion.div
-            className="min-h-screen"
+            className="min-h-screen flex items-center justify-center px-4 sm:px-8"
             initial="hidden"
             animate="visible"
-            variants={containerVariants}>
-            <GradientBackground
-                className="min-h-screen flex flex-col items-center justify-center px-4 sm:px-8 relative">
-                <FloatingBlobs/>
+            variants={containerVariants}
+        >
+            <div className="w-full flex flex-col justify-start items-start text-left pt-28 pb-24 relative z-8 px-8 sm:px-16">
+                <motion.div variants={itemVariants}>
+                    <AnimatedSection animation="slideUp" delay={0.2}>
+                        <p className="text-2xl sm:text-6xl text-foreground/90 mt-4 font-poiret-one font-bold leading-relaxed">
+                            Design and develop interactive web interfaces with robust database integration,
+                            ensuring cross-browser compatibility and responsive performance.
+                        </p>
+                    </AnimatedSection>
+                </motion.div>
 
-                <div
-                    className="w-full flex flex-col justify-start items-start text-left relative z-8  px-8 sm:px-16">
-                    {/* className="w-full flex flex-col justify-start items-start text-left 0 relative z-8  px-8 sm:px-16"> */}
-
-                    <motion.div variants={itemVariants}>
-                        <AnimatedSection animation="slideUp" delay={0.2}>
-                            <p
-                                className="text-2xl sm:text-6xl text-foreground/90 font-poiret-one font-bold  leading-relaxed">
-                                Design and develop interactive web interfaces with robust database integration,
-                                ensuring cross-browser compatibility and responsive performance.
-                            </p>
-                        </AnimatedSection>
-                    </motion.div>
-
-                    <motion.div variants={itemVariants}>
-                        <AnimatedSection
-                            className="flex flex-wrap justify-start gap-4 mt-12"
-                            animation="slideUp"
-                            delay={0.4}>
-                            <Button
-                                asChild
-                                size="lg"
-                                className="
-                                            rounded-full
-                                            px-8
-                                            tracking-wide
-                                            shadow-lg
-                                            transition-all  
-                                            duration-300
-                                            ease-in-out
-                                            hover:scale-105
-                                            hover:shadow-2xl
-                                            hover:bg-primary/90
-                                            focus:outline-none
-                                            focus:ring-4
-                                            focus:ring-primary/50
-                                            focus:ring-offset-2
-                                        ">
-                                <Link href="/Resume.pdf" target="_blank">View Resume</Link>
-                            </Button>
-
-                        </AnimatedSection>
-                    </motion.div>
-                </div>
-            </GradientBackground>
+                <motion.div variants={itemVariants}>
+                    <AnimatedSection
+                        className="flex flex-wrap justify-start gap-4 mt-12"
+                        animation="slideUp"
+                        delay={0.4}
+                    >
+                        <Button
+                            asChild
+                            size="lg"
+                            className="rounded-full px-8 tracking-wide shadow-lg transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:bg-primary/90 focus:outline-none focus:ring-4 focus:ring-primary/50 focus:ring-offset-2"
+                        >
+                            <Link href="/Resume.pdf" target="_blank">View Resume</Link>
+                        </Button>
+                    </AnimatedSection>
+                </motion.div>
+            </div>
         </motion.div>
     );
 }
