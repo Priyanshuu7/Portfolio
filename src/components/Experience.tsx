@@ -26,11 +26,11 @@ export function Experience() {
                         <div className="flex flex-col md:flex-row md:items-start gap-6">
                             <div className="md:w-1/3">
                                 <Badge variant="secondary" className="mb-2">
-                                    June 2024 – Aug 2024
-                                </Badge>
+                                        June 2024 – Aug 2024
+                                    </Badge>
                                 <h3 className="text-2xl font-bold mb-2">Full Stack Developer Intern</h3>
                                 <p className="text-muted-foreground">Clinicspots — Mumbai, India (Remote)</p>
-                            </div>
+                                </div>
                             <div className="md:w-2/3">
                                 <ul className="space-y-3">
                                     <li className="flex items-start gap-3">
@@ -54,7 +54,7 @@ export function Experience() {
                                         <span className="italic text-white">
                                             Technologies Used - React.Js, Tailwind, Javascript, Google PageSpeed Insights.
                                         </span>
-                                    </li>
+                                            </li>
                                 </ul>
                             </div>
                         </div>
@@ -65,11 +65,11 @@ export function Experience() {
                         <div className="flex flex-col md:flex-row md:items-start gap-6">
                             <div className="md:w-1/3">
                                 <Badge variant="secondary" className="mb-2">
-                                    Aug 2022 – Jul 2026
-                                </Badge>
+                                        Aug 2022 – Jul 2026
+                                    </Badge>
                                 <h4 className="text-xl font-bold mb-2">Jaypee University of Engineering and Technology, Guna</h4>
                                 <p className="text-muted-foreground">B.Tech. in Computer Science</p>
-                            </div>
+                                </div>
                             <div className="md:w-2/3">
                                 <p >
                                     <strong className="font-poiret-one font-bold text-xl">Relevant Coursework:</strong> <span className="text-muted-foreground"> Data Structures & Algorithms, Databases, Operating Systems, Software Engineering, Computer Networks.</span> 

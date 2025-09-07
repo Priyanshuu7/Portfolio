@@ -62,10 +62,10 @@ export function Projects() {
                 </motion.div>
 
                 <motion.div className="space-y-16" variants={slideUpVariants}>
-  {projects.map((project, index) => (
-    <motion.div
-      key={project.title}
-      variants={slideUpVariants}
+                    {projects.map((project, index) => (
+                        <motion.div
+                            key={project.title}
+                            variants={slideUpVariants}
       whileHover={{ scale: 1.01 }}
       transition={{ type: "spring", stiffness: 300 }}
       className="flex flex-col md:flex-row md:items-start gap-8"
@@ -73,20 +73,20 @@ export function Projects() {
       <div className="md:w-1/3">
         <h3 className="text-3xl font-poiret-one font-bold mb-3">{project.title}</h3>
         <div className="flex gap-3">
-          <a
-            href={project.github}
-            target="_blank"
-            rel="noopener noreferrer"
+                                        <a
+                                            href={project.github}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
             className="flex items-center gap-1 hover:underline underline-offset-4 transition-all font-poiret-one "
           >
             <Github className="h-4 w-4" />
             <span>Code</span>
-          </a>
+                                        </a>
 
-          <a
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
+                                        <a
+                                            href={project.link}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
             className="flex items-center gap-1 hover:underline underline-offset-4 transition-all font-poiret-one  font-bold"
           >
             <span>Deployment</span>
@@ -105,9 +105,9 @@ export function Projects() {
           ))}
         </div>
       </div>
-    </motion.div>
-  ))}
-</motion.div>
+                        </motion.div>
+                    ))}
+                </motion.div>
 
             </div>
         </motion.section>

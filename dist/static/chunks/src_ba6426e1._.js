@@ -795,15 +795,38 @@ function Hero() {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$AnimatedSection$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatedSection"], {
                                 animation: "slideUp",
                                 delay: 0.2,
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-2xl sm:text-6xl text-foreground/90 mt-4 font-poiret-one font-bold leading-relaxed",
-                                    children: "Design and develop interactive web interfaces with robust database integration, ensuring cross-browser compatibility and responsive performance."
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/Hero.tsx",
-                                    lineNumber: 45,
-                                    columnNumber: 29
-                                }, this)
-                            }, void 0, false, {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                        src: "/favicon.png",
+                                        alt: "favicon",
+                                        className: "w-18 h-18"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/Hero.tsx",
+                                        lineNumber: 45,
+                                        columnNumber: 27
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        fileName: "[project]/src/components/Hero.tsx",
+                                        lineNumber: 46,
+                                        columnNumber: 27
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex items-center gap-4 mb-4",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-2xl sm:text-6xl text-foreground/90 font-poiret-one font-bold leading-relaxed",
+                                            children: "Design and develop interactive web interfaces with robust database integration, ensuring cross-browser compatibility and responsive performance."
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/Hero.tsx",
+                                            lineNumber: 49,
+                                            columnNumber: 33
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/Hero.tsx",
+                                        lineNumber: 47,
+                                        columnNumber: 29
+                                    }, this)
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/src/components/Hero.tsx",
                                 lineNumber: 44,
                                 columnNumber: 25
@@ -829,22 +852,22 @@ function Hero() {
                                         children: "View Resume"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 63,
+                                        lineNumber: 68,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Hero.tsx",
-                                    lineNumber: 58,
+                                    lineNumber: 63,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 53,
+                                lineNumber: 58,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Hero.tsx",
-                            lineNumber: 52,
+                            lineNumber: 57,
                             columnNumber: 21
                         }, this)
                     ]
@@ -1419,7 +1442,7 @@ function Projects() {
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/Projects.tsx",
                                                     lineNumber: 76,
-                                                    columnNumber: 11
+                                                    columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                     href: project.link,
@@ -1443,7 +1466,7 @@ function Projects() {
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/Projects.tsx",
                                                     lineNumber: 86,
-                                                    columnNumber: 11
+                                                    columnNumber: 41
                                                 }, this)
                                             ]
                                         }, void 0, true, {
@@ -1493,7 +1516,7 @@ function Projects() {
                         }, project.title, true, {
                             fileName: "[project]/src/components/Projects.tsx",
                             lineNumber: 66,
-                            columnNumber: 5
+                            columnNumber: 25
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/Projects.tsx",

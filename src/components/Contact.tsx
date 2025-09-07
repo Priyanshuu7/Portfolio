@@ -173,7 +173,7 @@ export function Contact() {
                                     </svg>
                                 </span>
                             </a>
-                        </div>
+                    </div>
                         <p className="font-poiret-one text-xl pt-8" style={{ opacity: 1 }}>
                             Currently based in Guna, <br /> India Open to remote opportunities worldwide
                         </p>
