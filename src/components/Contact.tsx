@@ -9,7 +9,7 @@ export function Contact() {
         <section id="contact" className="py-24">
             <div className="container max-w-6xl mx-auto px-4 sm:px-6">
                 <AnimatedSection className="text-left mb-16">
-                    <h2 className="text-5xl font-poiret-one font-bold mb-4">Get In Touch</h2>
+                    <h2 className="text-5xl mb-4">Get In Touch</h2>
                 </AnimatedSection>
 
                 <motion.div 
@@ -26,7 +26,7 @@ export function Contact() {
                             <a
                                 href="mailto:rajakpriyanshu581@gmail.com"
                                 className="group inline-flex items-center gap-2 text-xl md:text-2xl relative">
-                                <span className="relative font-poiret-one">rajakpriyanshu581@gmail.com
+                                <span className="relative">rajakpriyanshu581@gmail.com
                                     <span className="absolute left-0 right-0 bottom-0 h-px bg-primary scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
                                 </span>
                                 <span style={{ transform: "none" }}>
@@ -49,7 +49,7 @@ export function Contact() {
 
                     {/* Right Column - Social Links */}
                     <div className="space-y-8" style={{ opacity: 1, transform: "none" }}>
-                        <h3 className="text-muted-foreground text-3xl font-poiret-one">Find me on</h3>
+                        <h3 className="text-muted-foreground text-3xl">Find me on</h3>
                         <div className="space-y-4">
                             <a
                                 href="https://www.linkedin.com/in/priyanshurajak/"
@@ -174,7 +174,7 @@ export function Contact() {
                                 </span>
                             </a>
                     </div>
-                        <p className="font-poiret-one text-xl pt-8" style={{ opacity: 1 }}>
+                        <p className="text-xl pt-8">
                             Currently based in Guna, <br /> India Open to remote opportunities worldwide
                         </p>
                     </div>

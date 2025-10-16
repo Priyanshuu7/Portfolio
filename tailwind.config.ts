@@ -10,8 +10,9 @@ export default {
   theme: {
   	extend: {
   		fontFamily: {
-  			'poiret-one': ['var(--font-poiret-one)', 'Poiret One', 'sans-serif'],
-  			'bitcount-single': ['"Bitcount Single"', 'system-ui', 'sans-serif'],
+				'sans': ['var(--font-open-sans)', 'Open Sans', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+				'poiret-one': ['var(--font-open-sans)', 'Open Sans', 'sans-serif'],
+				'bitcount-single': ['var(--font-open-sans)', 'Open Sans', 'sans-serif'],
   		},
   		colors: {
   			background: 'hsl(var(--background))',

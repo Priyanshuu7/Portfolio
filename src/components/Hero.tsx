@@ -46,7 +46,7 @@ export function Hero() {
                           <br />
                             <div className="flex items-center gap-4 mb-4">
                                 
-                                <p className="text-2xl sm:text-6xl text-foreground/90 font-poiret-one font-bold leading-relaxed">
+                                <p className="text-xl sm:text-5xl text-foreground/90  leading-relaxed">
                                     Design and develop interactive web interfaces with robust database integration,
                                     ensuring cross-browser compatibility and responsive performance.
                                 </p>
