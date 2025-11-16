@@ -158,8 +158,12 @@ export function Skills() {
                   className="flex items-center gap-2.5 px-4 py-2 bg-background rounded-full hover:shadow-lg transition-shadow"
                   style={{ opacity: 1, transform: "none" }}
                 >
+                  <Icon icon="skill-icons:docker" className="w-5 h-5" />
+                  <span className="text-sm">Docker</span>
+                   <br />
                   <Icon icon="skill-icons:vim-dark" className="w-5 h-5" />
                   <span className="text-sm">Vim</span>
+                  
                 </div>
               </div>
             </div>

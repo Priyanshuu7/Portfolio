@@ -42,11 +42,11 @@ export function Hero() {
                 <div className="w-full flex flex-col justify-start items-start text-left pt-28 pb-24 px-8 sm:px-16">
                     <motion.div variants={itemVariants}>
                         <AnimatedSection animation="slideUp" delay={0.2}>
-                          <img src="/favicon.png" alt="favicon" className="w-18 h-18" />
+                          <img src="/favicon.png" alt="favicon" className="w-20 h-19" />
                           <br />
                             <div className="flex items-center gap-4 mb-4">
                                 
-                                <p className="text-xl sm:text-5xl text-foreground/90  leading-relaxed">
+                                <p className="text-xl sm:text-6xl text-foreground/90  leading-relaxed">
                                     Design and develop interactive web interfaces with robust database integration,
                                     ensuring cross-browser compatibility and responsive performance.
                                 </p>

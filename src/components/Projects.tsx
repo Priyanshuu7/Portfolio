@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import { fadeInVariants, slideUpVariants } from "@/lib/animations";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
@@ -24,10 +23,10 @@ const projects = [
     github: "https://github.com/Priyanshuu7/Schedulux",
   },
   {
-    title: "Chainchat",
+    title: "Snippychat",
     description:
       "A social media platform tailored for athletes. Connect with fellow athletes and share your journey.",
-    technologies: ["Nextjs", "Prisma", "Clerk", "PostgreSQL"],
+    technologies: ["Nextjs", "Prisma", "OAuth", "PostgreSQL"],
     link: "#",
     github: "#",
   },
@@ -45,7 +44,7 @@ export function Projects() {
     >
       <div className="container max-w-7xl mx-auto px-4 sm:px-6">
         <motion.div className="text-left mb-16" variants={slideUpVariants}>
-          <h2 className="text-5xl mb-4">Technical Projects</h2>
+          <h2 className="text-5xl mb-4">Selected Work</h2>
         </motion.div>
 
         <motion.div className="space-y-16" variants={slideUpVariants}>

@@ -655,6 +655,10 @@ body {
   height: 1px;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -697,6 +701,10 @@ body {
 
 .w-full {
   width: 100%;
+}
+
+.w-20 {
+  width: 5rem;
 }
 
 .min-w-0 {
@@ -1089,10 +1097,6 @@ body {
   text-align: center;
 }
 
-.font-poiret-one {
-  font-family: var(--font-open-sans), Open Sans, sans-serif;
-}
-
 .font-sans {
   font-family: var(--font-open-sans), Open Sans, ui-sans-serif, system-ui, sans-serif;
 }
@@ -1130,14 +1134,6 @@ body {
 .text-xs {
   font-size: .75rem;
   line-height: 1rem;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.font-extrabold {
-  font-weight: 800;
 }
 
 .font-medium {
@@ -1787,13 +1783,18 @@ body {
     text-align: left;
   }
 
-  .sm\:text-6xl {
-    font-size: 3.75rem;
+  .sm\:text-5xl {
+    font-size: 3rem;
     line-height: 1;
   }
 
-  .sm\:text-5xl {
-    font-size: 3rem;
+  .sm\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .sm\:text-6xl {
+    font-size: 3.75rem;
     line-height: 1;
   }
 }
