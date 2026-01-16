@@ -47,7 +47,7 @@ export function Experience() {
                   <li className="flex items-start gap-3">
                     <span className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></span>
                     <span>
-                      Delivered 4+ client projects with React/Next.js, adding responsive features
+                      Delivered 2 client projects with React/Next.js, adding responsive features
                       that increased user engagement by 20%.
                     </span>
                   </li>
@@ -61,7 +61,7 @@ export function Experience() {
                   <li className="flex items-start gap-3">
                     <span className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></span>
                     <span>
-                      Optimized MongoDB database schemas, improving query efficiency by 35% and
+                      Optimized MongoDB database schemas, improving query efficiency  and
                       supporting scalable workflows.
                     </span>
                   </li>
@@ -134,7 +134,7 @@ export function Experience() {
             <div className="flex flex-col md:flex-row md:items-start gap-6">
               <div className="md:w-1/3">
                 <Badge variant="secondary" className="mb-2">
-                  Aug 2022 – Jul 2026
+                  Aug 2022 – Present
                 </Badge>
                 <h4 className="text-xl  mb-2">
                   Jaypee University of Engineering and Technology, Guna
