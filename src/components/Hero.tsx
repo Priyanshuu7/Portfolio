@@ -43,7 +43,7 @@ export function Hero() {
                 <div className="w-full flex flex-col justify-start items-start text-left pt-28 pb-24 px-8 sm:px-16">
                     <motion.div variants={itemVariants}>
                         <AnimatedSection animation="slideUp" delay={0.2}>
-                          <Image src="/images/portfolio.png" alt="portfolio" width={500} height={500} />
+                          <Image src="/favicon.png" alt="portfolio" width={60} height={60} />
                           <br />
                             <div className="flex items-center gap-4 mb-4">
                                 
