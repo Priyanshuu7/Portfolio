@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { BackgroundBeams } from "./ui/background-beams";
+import Image from "next/image";
 
 export function Hero() {
     const containerVariants = {
@@ -42,7 +43,7 @@ export function Hero() {
                 <div className="w-full flex flex-col justify-start items-start text-left pt-28 pb-24 px-8 sm:px-16">
                     <motion.div variants={itemVariants}>
                         <AnimatedSection animation="slideUp" delay={0.2}>
-                          <img src="/favicon.png" alt="favicon" className="w-20 h-19" />
+                          <Image src="/images/portfolio.png" alt="portfolio" width={500} height={500} />
                           <br />
                             <div className="flex items-center gap-4 mb-4">
                                 
