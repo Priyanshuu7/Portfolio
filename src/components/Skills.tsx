@@ -5,9 +5,7 @@ import { fadeInVariants, slideUpVariants } from "@/lib/animations";
 import { AnimatedSection } from "@/components/AnimatedSection";
 import { Icon } from "@iconify/react";
 
-/* =======================
-   Skills Data
-======================= */
+
 const SKILLS = [
   {
     category: "Languages",
@@ -58,9 +56,7 @@ const SKILLS = [
   },
 ];
 
-/* =======================
-   Skills Component
-======================= */
+
 export function Skills() {
   return (
     <motion.section
