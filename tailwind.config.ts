@@ -10,7 +10,7 @@ export default {
   theme: {
   	extend: {
   		fontFamily: {
-				'sans': ['var(--font-open-sans)', 'Open Sans', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+				'sans': ['Ubuntu', 'var(--font-open-sans)', 'Open Sans', 'ui-sans-serif', 'system-ui', 'sans-serif'],
 				'poiret-one': ['var(--font-open-sans)', 'Open Sans', 'sans-serif'],
 				'bitcount-single': ['var(--font-open-sans)', 'Open Sans', 'sans-serif'],
   		},

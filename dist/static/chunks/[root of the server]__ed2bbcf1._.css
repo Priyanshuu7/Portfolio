@@ -273,7 +273,7 @@ html, :host {
   -webkit-text-size-adjust: 100%;
   -moz-tab-size: 4;
   tab-size: 4;
-  font-family: var(--font-open-sans), Open Sans, ui-sans-serif, system-ui, sans-serif;
+  font-family: Ubuntu, var(--font-open-sans), Open Sans, ui-sans-serif, system-ui, sans-serif;
   font-feature-settings: normal;
   font-variation-settings: normal;
   -webkit-tap-highlight-color: transparent;
@@ -512,7 +512,7 @@ img, video {
 
 body {
   background-color: hsl(var(--background));
-  font-family: var(--font-open-sans), Open Sans, ui-sans-serif, system-ui, sans-serif;
+  font-family: Ubuntu, var(--font-open-sans), Open Sans, ui-sans-serif, system-ui, sans-serif;
   color: hsl(var(--foreground));
 }
 
@@ -1244,7 +1244,7 @@ body {
 }
 
 .font-sans {
-  font-family: var(--font-open-sans), Open Sans, ui-sans-serif, system-ui, sans-serif;
+  font-family: Ubuntu, var(--font-open-sans), Open Sans, ui-sans-serif, system-ui, sans-serif;
 }
 
 .text-2xl {
@@ -1656,6 +1656,62 @@ body {
   font-family: var(--font-open-sans), "Open Sans", ui-sans-serif, system-ui, sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.honk-text {
+  font-family: Honk, system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
+}
+
+.ubuntu-light {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .hover\:scale-105:hover {

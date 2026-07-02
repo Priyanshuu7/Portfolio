@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { BackgroundBeams } from "./ui/background-beams";
-import Image from "next/image";
 
 export function Hero() {
     const containerVariants = {
@@ -40,16 +39,13 @@ export function Hero() {
                 animate="visible"
                 variants={containerVariants}
             >
-                <div className="w-full flex flex-col justify-start items-start text-left pt-28 pb-24 px-8 sm:px-16">
+                <div className="max-w-7xl w-full flex flex-col justify-start items-start text-left pt-28 pb-24 px-8 sm:px-16">
                     <motion.div variants={itemVariants}>
                         <AnimatedSection animation="slideUp" delay={0.2}>
-                          <Image src="/favicon.png" alt="portfolio" width={60} height={60} />
-                          <br />
+                            <br />
                             <div className="flex items-center gap-4 mb-4">
-                                
-                                <p className="text-xl sm:text-6xl text-foreground/90  leading-relaxed">
-                                    Design and develop interactive web interfaces with robust database integration,
-                                    ensuring cross-browser compatibility and responsive performance.
+                                <p className="text-xl sm:text-6xl text-foreground/90 leading-relaxed honk-text max-w-7xl">
+                                    I build interactive, database-powered web apps that perform smoothly on any browser or device.
                                 </p>
                             </div>
                         </AnimatedSection>
