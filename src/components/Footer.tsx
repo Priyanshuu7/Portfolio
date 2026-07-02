@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { fadeInVariants } from "@/lib/animations";
-import {  Heart } from "lucide-react";
+import { Heart } from "lucide-react";
 
 export function Footer() {
   return (
@@ -19,9 +19,7 @@ export function Footer() {
         <div className="container max-w-6xl mx-auto px-4 sm:px-6">
           <div className="flex flex-col items-center gap-4">
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
-              <span>Designed & Built with</span>
-              <Heart className="w-4 h-4 text-red-500 animate-pulse" />
-              <span>by Priyanshu</span>
+              <span>Designed & Built by Priyanshu</span>
             </div>
           </div>
         </div>
