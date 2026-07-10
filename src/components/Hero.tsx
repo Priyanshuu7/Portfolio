@@ -4,7 +4,8 @@ import { AnimatedSection } from "@/components/AnimatedSection";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { BackgroundBeams } from "./ui/background-beams";
+{/* removed the bg beams */ }
+// import { BackgroundBeams } from "./ui/background-beams";
 
 export function Hero() {
     const containerVariants = {
@@ -29,10 +30,11 @@ export function Hero() {
 
     return (
         <div className="relative isolate min-h-screen w-full overflow-hidden">
-            {/* Background Effect */}
-            <BackgroundBeams />
 
-            {/* Foreground Content */}
+            {/* removed the bg beams */}
+            {/* <BackgroundBeams /> */}
+
+
             <motion.div
                 className="relative z-10 flex items-center justify-center min-h-screen px-4 sm:px-8"
                 initial="hidden"
