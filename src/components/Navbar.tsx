@@ -24,11 +24,10 @@ export function Navbar() {
 
   return (
     <header
-      className={`transition-all duration-300 ${
-        scrolled
+      className={`transition-all duration-300 ${scrolled
           ? "bg-white/80 dark:bg-black/80 backdrop-blur-md"
           : "bg-transparent"
-      }`}
+        }`}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
@@ -74,7 +73,7 @@ export function Navbar() {
             <div className="ml-6 transition-transform duration-300 hover:scale-110">
               <Avatar>
                 <AvatarImage
-                  src="/User.jpeg"
+                  src="/dog.jpg"
                   alt="Priyanshu Rajak"
                   className="object-cover rounded-full"
                 />
