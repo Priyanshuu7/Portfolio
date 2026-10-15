@@ -28,11 +28,11 @@ export function Experience() {
             <div className="flex flex-col md:flex-row md:items-start gap-6">
               <div className="md:w-1/3">
                 <Badge variant="secondary" className="mb-2">
-                  June 2025 – Sep 2025
+                  Sep 2026 – Oct 2026
                 </Badge>
-                <h3 className="text-2xl  mb-2">Full Stack Developer Intern</h3>
+                <h3 className="text-2xl  mb-2">Freelancing</h3>
                 <p className="text-muted-foreground">
-                  Knaptix Ventures Private Limited — India (Remote)
+                  Freelance Full Stack Developer — Label Shivranjani Solanki
                 </p>
               </div>
               <div className="md:w-2/3">
@@ -40,35 +40,35 @@ export function Experience() {
                   <li className="flex items-start gap-3">
                     <span className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></span>
                     <span>
-                      Built scalable web applications with Next.js, improving load speed by 30% and
-                      ensuring production-grade performance.
+                      Built a production-ready headless fashion e-commerce store using Next.js and Shopify GraphQL, supporting products,
+                      collections, cart, and checkout.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></span>
                     <span>
-                      Delivered 2 client projects with React/Next.js, adding responsive features
-                      that increased user engagement by 20%.
+                      Engineered a custom Shopify GraphQL data layer with 10+ operations and 6 webhooks for automated catalog synchro-
+                      nization and cache revalidation.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></span>
                     <span>
-                      Designed RESTful backend APIs in Node.js, reducing server response times by
-                      25% and enabling seamless data flow.
+                      Improved page-load performance by 40% through optimized font loading and granular Next.js caching, reducing mobile
+                      load time by 1.75s.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></span>
                     <span>
-                      Optimized MongoDB database schemas, improving query efficiency  and
-                      supporting scalable workflows.
+                      Implemented a seamless shopping experience using Server Actions and optimistic UI, along with SEO, shoppable video,
+                      filtering, and responsive navigation.
                     </span>
                   </li>
                   <li className="flex items-start gap-3 mt-6">
                     <span className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></span>
                     <span className="italic text-white">
-                      Technologies Used - React, Next.js, Node.js, Express.js, MongoDB
+                      Technologies: Next.js, TypeScript, Shopify, GraphQL, Cloudflare R2, Vercel
                     </span>
                   </li>
                 </ul>
